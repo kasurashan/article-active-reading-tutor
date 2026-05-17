@@ -12,6 +12,7 @@ A Codex skill for studying English magazine articles through guided active-readi
 - 로컬 Markdown article 또는 study file을 소스로 사용할 수 있습니다.
 - URL이 없으면 Smithsonian/Quanta에서 후보 article 3개를 제시합니다.
 - 기사 전체를 한 번에 읽히지 않고, 제목/부제/첫 구간부터 작은 단위로 진행합니다.
+- 매번 웹사이트로 돌아가라고만 하지 않고, 짧은 anchor와 paraphrase로 된 reading segment card를 채팅 안에 제공합니다.
 - 예측, gist reading, 근거 찾기, 어휘/구문 noticing, 영어 output, 회상 복습을 포함합니다.
 - 학습자가 영어로 답하면 문법, 어색한 표현, 단어 선택, collocation을 짧게 교정합니다.
 - 사용자가 직접 묻기 전까지 정답, 모범답안, 전체 해석을 바로 공개하지 않고 단계별 힌트를 줍니다.
@@ -154,6 +155,7 @@ The tutor then guides the learner step by step. It does not dump the full explan
 - This skill is not affiliated with Smithsonian Magazine or Quanta Magazine.
 - The skill is designed to link to articles or use local study files and guide reading. It should not reproduce full copyrighted articles.
 - If a local Markdown file is created from a web article, prefer metadata, links, summaries, short compliant excerpts, segment pointers, vocabulary, and tasks rather than copying the full article text.
+- For public web articles, the tutor should use short anchors and paraphrases rather than pasting full paragraphs into the chat.
 - Korean is used for coaching and feedback; English is used for target expressions, sentence frames, and output practice.
 - The default learner profile is TOEIC 800-850 / CEFR B2, but the tutor can adapt up or down during conversation.
 

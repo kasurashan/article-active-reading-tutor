@@ -79,11 +79,36 @@ Do not give the expected answer after asking prediction questions. If the learne
 
 ### 2. Gist reading, 5 minutes
 
-Assign a small segment:
+Assign a small segment, then provide a copyright-safe reading segment card in the chat instead of only telling the learner to go find it.
 
 - Smithsonian short article: first 2-4 paragraphs.
 - Smithsonian long feature: lead section or one subheaded section.
 - Quanta: title/subtitle plus first 2-3 paragraphs, or one short section.
+
+Use this format for public web articles:
+
+```markdown
+읽기 구간 카드
+
+- 위치: [article title]의 [heading/paragraph location]
+- Anchor: "[very short excerpt]"
+- Paraphrase: [concise English or Korean paraphrase of the segment]
+- Key expressions: `...`, `...`, `...`
+
+이 카드만 보고 먼저 답해보세요. 정답은 아직 말하지 않겠습니다.
+```
+
+Use this format for local Markdown study files:
+
+```markdown
+읽기 구간 카드
+
+- 위치: [file heading / paragraph numbers]
+- 핵심 내용: [short paraphrase or learner-owned note excerpt]
+- Key expressions: `...`, `...`, `...`
+```
+
+For public web articles, do not paste full paragraphs. Use short anchors and paraphrase so the learner can stay in the chat without receiving a full copied passage.
 
 Ask the learner not to use a dictionary unless completely blocked.
 
