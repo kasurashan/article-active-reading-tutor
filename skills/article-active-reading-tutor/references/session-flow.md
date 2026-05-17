@@ -179,12 +179,39 @@ For Quanta:
 After every English output, provide a compact correction:
 
 ```markdown
+네 의도는 이해했어요. 다만 [one issue]가 조금 흐려요.
+먼저 직접 고쳐봅시다:
+[Socratic prompt or minimal frame]
+```
+
+After the learner retries, provide the natural version:
+
+```markdown
 영어 표현 교정:
 - Natural version: ...
 - Why: ...
+- Try again: [one transfer sentence or short reuse task]
 ```
 
-Then continue with the next active-reading step. Do not give the model answer unless the learner explicitly asks for it.
+Do not give the natural version as the first response unless the learner explicitly asks, is clearly stuck, or the issue is too opaque for self-repair. Then continue with the next active-reading step. Do not give the model answer unless the learner explicitly asks for it.
+
+For Socratic scaffolding, use this order:
+
+1. open clarification question
+2. conceptual contrast
+3. minimal sentence frame
+4. A/B choice
+5. model answer only after retry or explicit request
+
+Example:
+
+```markdown
+좋아요. 의도는 맞아요. 다만 `literally itself`는 무엇을 가리키는지 흐려요.
+먼저 더 구체화해봅시다. biological age는 태어난 지 지난 시간 쪽인가요, 몸의 상태/기능 쪽인가요?
+
+영어로 한 문장만 다시 써보세요:
+I think biological age means ...
+```
 
 ### 6. Exit retrieval, 1-2 minutes
 

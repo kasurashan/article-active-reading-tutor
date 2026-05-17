@@ -14,7 +14,8 @@ A Codex skill for studying English magazine articles through guided active-readi
 - 기사 전체를 한 번에 읽히지 않고, 제목/부제/첫 구간부터 작은 단위로 진행합니다.
 - 매번 웹사이트로 돌아가라고만 하지 않고, 짧은 anchor와 paraphrase로 된 reading segment card를 채팅 안에 제공합니다.
 - 예측, gist reading, 근거 찾기, 어휘/구문 noticing, 영어 output, 회상 복습을 포함합니다.
-- 학습자가 영어로 답하면 문법, 어색한 표현, 단어 선택, collocation을 짧게 교정합니다.
+- 학습자가 영어로 답하면 바로 모범문장을 던지기보다 Socratic self-repair로 한 번 더 생각하고 고쳐 쓰게 합니다.
+- 교정은 `Natural version`에서 끝나지 않고, 재작성이나 응용 문장 생성으로 이어지도록 설계되어 있습니다.
 - 사용자가 직접 묻기 전까지 정답, 모범답안, 전체 해석을 바로 공개하지 않고 단계별 힌트를 줍니다.
 - 학습 마지막에는 사용자의 답변을 바탕으로 메타 학습 리포트를 정리합니다.
 - Obsidian에 붙여 넣기 좋은 복습 노트 형식을 제공합니다.
@@ -43,7 +44,7 @@ A Codex skill for studying English magazine articles through guided active-readi
    사용자의 답변을 보고 핵심 어휘 4-6개, collocation 2-4개, 긴 명사구, hedge 표현 등을 골라 다룹니다.
 
 5. **Output**  
-   배운 표현을 써서 영어로 한두 문장을 직접 만듭니다.
+   배운 표현을 써서 영어로 한두 문장을 직접 만듭니다. 튜터는 먼저 열린 질문과 최소 힌트로 self-repair를 유도하고, 필요할 때만 natural version을 제공합니다.
 
 6. **Meta Wrap-up**  
    오늘의 독해 습관, 막힌 지점, 다음 공부거리를 정리합니다.
