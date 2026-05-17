@@ -41,6 +41,10 @@ Step 1. 제목/부제만 보고 예측해봅시다.
 아직 본문은 읽지 마세요.
 ```
 
+Before saying this, open or browse the URL to verify the title, source, visible date, structure, and approximate difficulty. Do not paste the article text into the conversation.
+
+During the conversation, do not re-open the page after every learner response. Re-open only when assigning a new segment, checking a factual detail, resuming later, or resolving uncertainty.
+
 ## Default 25-Minute Session
 
 ### 1. Pre-reading, 3 minutes
@@ -55,6 +59,8 @@ Ask 2-3 questions:
 - 이미 알고 있는 배경지식이 있나요?
 
 Wait for the learner's response.
+
+Do not give the expected answer after asking prediction questions. If the learner asks whether their prediction is correct, say that prediction is a hypothesis and will be checked during reading.
 
 ### 2. Gist reading, 5 minutes
 
@@ -72,6 +78,8 @@ Ask:
 - 이 글이 다루는 problem은 무엇인가요?
 - 다음 구간에서 무엇을 설명할 것 같나요?
 
+Do not reveal the gist answer before the learner attempts it. If they are stuck, use the hint ladder from `feedback-rubric.md`.
+
 ### 3. Evidence reading, 5-7 minutes
 
 Ask the learner to re-read the same segment and mark:
@@ -84,6 +92,8 @@ Ask the learner to re-read the same segment and mark:
 - `!` = surprising
 
 Then ask for 2-3 marked items.
+
+If the marking is wrong, avoid giving the full key immediately. Point to one marker, relation, or paragraph and ask the learner to revise.
 
 ### 4. Language focus, 5-7 minutes
 
@@ -106,6 +116,8 @@ Use this micro-sequence:
 2. Ask the learner what it does in the article.
 3. Give concise explanation.
 4. Have the learner reuse it.
+
+When explaining an expression, avoid giving away the answer to the current comprehension question unless the learner explicitly asks for the answer.
 
 ### 5. Output, 3-5 minutes
 
@@ -165,4 +177,3 @@ Use only 4 vocabulary/chunk items.
 - Exit retrieval/meta: 2 minutes
 
 Use up to 6 vocabulary/chunk items and one sentence analysis.
-

@@ -12,6 +12,7 @@ A Codex skill for studying English magazine articles through guided active-readi
 - URL이 없으면 Smithsonian/Quanta에서 후보 article 3개를 제시합니다.
 - 기사 전체를 한 번에 읽히지 않고, 제목/부제/첫 구간부터 작은 단위로 진행합니다.
 - 예측, gist reading, 근거 찾기, 어휘/구문 noticing, 영어 output, 회상 복습을 포함합니다.
+- 사용자가 직접 묻기 전까지 정답, 모범답안, 전체 해석을 바로 공개하지 않고 단계별 힌트를 줍니다.
 - 학습 마지막에는 사용자의 답변을 바탕으로 메타 학습 리포트를 정리합니다.
 - Obsidian에 붙여 넣기 좋은 복습 노트 형식을 제공합니다.
 
