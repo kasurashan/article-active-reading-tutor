@@ -1,0 +1,8 @@
+interface:
+  display_name: "Article Active Reading Tutor"
+  short_description: "Guided English article study for Korean learners"
+  brand_color: "#2F6F73"
+  default_prompt: "Use $article-active-reading-tutor to study one Smithsonian or Quanta article through a 25-minute guided active-reading conversation."
+
+policy:
+  allow_implicit_invocation: true
