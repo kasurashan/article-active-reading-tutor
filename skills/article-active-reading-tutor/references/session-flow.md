@@ -45,6 +45,21 @@ Before saying this, open or browse the URL to verify the title, source, visible 
 
 During the conversation, do not re-open the page after every learner response. Re-open only when assigning a new segment, checking a factual detail, resuming later, or resolving uncertainty.
 
+## Local Markdown Start
+
+When the user provides a local Markdown article or study file:
+
+```markdown
+좋아요. 로컬 Markdown 파일을 기준으로 진행하겠습니다.
+오늘은 전체를 한 번에 읽지 않고, 먼저 [heading/segment]만 봅니다.
+
+파일에서 title/source/URL/date를 확인하고, 부족한 정보는 학습에 필요한 범위에서만 보완하겠습니다.
+
+Step 1. 제목과 첫 heading만 보고 예측해봅시다.
+```
+
+Use headings, paragraph numbers, or section names to assign reading. Do not paste long source text into the conversation.
+
 ## Default 25-Minute Session
 
 ### 1. Pre-reading, 3 minutes
@@ -135,6 +150,16 @@ For Quanta:
 - `The researchers found that ...`
 - `One implication is ...`
 - `A remaining puzzle is ...`
+
+After every English output, provide a compact correction:
+
+```markdown
+영어 표현 교정:
+- Natural version: ...
+- Why: ...
+```
+
+Then continue with the next active-reading step. Do not give the model answer unless the learner explicitly asks for it.
 
 ### 6. Exit retrieval, 1-2 minutes
 

@@ -9,9 +9,11 @@ A Codex skill for studying English magazine articles through guided active-readi
 ## What It Does
 
 - 기사 URL을 받으면 해당 article로 대화형 학습을 시작합니다.
+- 로컬 Markdown article 또는 study file을 소스로 사용할 수 있습니다.
 - URL이 없으면 Smithsonian/Quanta에서 후보 article 3개를 제시합니다.
 - 기사 전체를 한 번에 읽히지 않고, 제목/부제/첫 구간부터 작은 단위로 진행합니다.
 - 예측, gist reading, 근거 찾기, 어휘/구문 noticing, 영어 output, 회상 복습을 포함합니다.
+- 학습자가 영어로 답하면 문법, 어색한 표현, 단어 선택, collocation을 짧게 교정합니다.
 - 사용자가 직접 묻기 전까지 정답, 모범답안, 전체 해석을 바로 공개하지 않고 단계별 힌트를 줍니다.
 - 학습 마지막에는 사용자의 답변을 바탕으로 메타 학습 리포트를 정리합니다.
 - Obsidian에 붙여 넣기 좋은 복습 노트 형식을 제공합니다.
@@ -100,6 +102,13 @@ $article-active-reading-tutor 이 기사로 25분 active reading 하자:
 https://www.quantamagazine.org/...
 ```
 
+or use a local Markdown file:
+
+```text
+$article-active-reading-tutor 이 로컬 md 파일로 공부하자:
+C:\path\to\article-study.md
+```
+
 ## Example Interaction
 
 ```text
@@ -143,7 +152,8 @@ The tutor then guides the learner step by step. It does not dump the full explan
 ## Notes
 
 - This skill is not affiliated with Smithsonian Magazine or Quanta Magazine.
-- The skill is designed to link to articles and guide reading. It should not reproduce full copyrighted articles.
+- The skill is designed to link to articles or use local study files and guide reading. It should not reproduce full copyrighted articles.
+- If a local Markdown file is created from a web article, prefer metadata, links, summaries, short compliant excerpts, segment pointers, vocabulary, and tasks rather than copying the full article text.
 - Korean is used for coaching and feedback; English is used for target expressions, sentence frames, and output practice.
 - The default learner profile is TOEIC 800-850 / CEFR B2, but the tutor can adapt up or down during conversation.
 

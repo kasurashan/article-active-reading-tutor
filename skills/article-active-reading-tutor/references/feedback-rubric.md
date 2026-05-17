@@ -16,6 +16,30 @@ Choose the highest-impact feedback point in this order:
 
 Do not correct every issue. Make the next task clear.
 
+## English Answer Correction
+
+When the learner writes in English, always give a brief correction unless the English is already natural.
+
+Use this format:
+
+```markdown
+영어 표현 교정:
+- Natural version: ...
+- Why: ...
+```
+
+If the learner's sentence is understandable but unnatural, focus on natural phrasing and collocation rather than minor grammar trivia.
+
+If the learner makes several mistakes, correct only the highest-value 1-2 issues:
+
+- article/preposition only when it affects naturalness or meaning
+- verb tense/aspect when it changes the timeline
+- word choice when it changes nuance
+- hedge strength when the article's caution level matters
+- collocation when the phrase is reusable
+
+Do not let correction swallow the reading lesson. Keep it short, then continue the active-reading task.
+
 ## Answer Withholding and Hint Ladder
 
 Never give the answer key, model answer, full translation, or final interpretation before the learner has tried. If the learner is stuck, move down this ladder gradually:
