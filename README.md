@@ -19,6 +19,7 @@ A Codex skill for studying English magazine articles through guided active-readi
 - 어색한 표현도 바로 polished phrase로 바꿔주기보다, 먼저 작은 힌트나 word bank로 학습자가 직접 repair하게 합니다.
 - 첫 시도에서는 full blank frame보다 sentence starter를 우선해, 학습자가 핵심 관계와 표현을 직접 선택하게 합니다.
 - 사용자가 직접 묻기 전까지 정답, 모범답안, 전체 해석을 바로 공개하지 않고 단계별 힌트를 줍니다.
+- 로컬 학습 프로필이 있으면 세션 전에 짧게 참고하고, 세션 후에는 메타 수준의 업데이트만 남깁니다.
 - 학습 마지막에는 사용자의 답변을 바탕으로 메타 학습 리포트를 정리합니다.
 - Obsidian에 붙여 넣기 좋은 복습 노트 형식을 제공합니다.
 
@@ -49,7 +50,17 @@ A Codex skill for studying English magazine articles through guided active-readi
    배운 표현을 써서 영어로 한두 문장을 직접 만듭니다. 튜터는 먼저 열린 질문과 최소 힌트로 self-repair를 유도하고, 필요할 때만 natural version을 제공합니다.
 
 6. **Meta Wrap-up**  
-   오늘의 독해 습관, 막힌 지점, 다음 공부거리를 정리합니다.
+   오늘의 독해 습관, 막힌 지점, 다음 공부거리를 정리합니다. 학습 프로필을 사용하는 경우, 프로필에는 구체 표현이나 예문을 중복하지 않고 “잘한 점 / 보완점 / 다음 반영”만 짧게 갱신합니다.
+
+## Learner Profile Loop
+
+When a local learner profile exists, such as:
+
+```text
+40. Study/english/English Learning Profile.md
+```
+
+the tutor uses it as a compact meta guide before the session. The profile should stay short and contain only current diagnosis, tutoring direction, focus areas, and a brief update log. Concrete sentence frames, vocabulary, article summaries, and examples belong in each session note instead.
 
 ## Installation
 

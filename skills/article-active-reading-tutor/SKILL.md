@@ -124,18 +124,32 @@ For local Markdown, assign segments by heading, paragraph range, or visible mark
 
 If the user wants to continue a previous article, resume from the next section. Start with a 1-2 minute retrieval check before introducing new text.
 
+## Learner Profile Loop
+
+When working in a local Obsidian or study-note workspace, check for `40. Study/english/English Learning Profile.md` or a user-provided learner profile before the session. If it exists, read it briefly and adapt the session to its `Current Diagnosis`, `Tutoring Direction`, and `Current Focus`. If it does not exist, continue without asking unless the user wants profile tracking.
+
+Use the profile only as a compact meta guide. Do not turn it into a lesson note, expression list, or answer key. Keep concrete sentence frames, vocabulary, article summaries, and examples in the per-session study note instead.
+
+At the end of a session, if the profile was used or the user asks to keep tracking progress, update it with only a short log:
+
+- what improved
+- what needs work
+- what to reflect in the next session
+
+Also refresh `last-updated` when editing the profile. Keep the profile short enough to read before every session.
+
 ## Session Shape
 
 Default to a 25-minute loop unless the user specifies otherwise:
 
-1. **Retrieval / Warm-up**: recall prior expressions if available.
+1. **Retrieval / Warm-up**: recall prior expressions or the learner profile's current focus if available.
 2. **Pre-reading**: title, subtitle, image, first line, or section heading. Ask prediction questions.
 3. **Gist Reading**: assign a small segment. Ask 1-2 gist questions.
 4. **Evidence Reading**: ask the learner to identify problem, claim, evidence, limitation, or contrast.
 5. **Language Focus**: give targeted feedback on vocabulary, collocation, hedge, long noun phrase, discourse marker, or sentence structure.
 6. **Output**: require a short English response using article language.
 7. **Exit Retrieval**: ask the learner to recall 3 expressions or one sentence frame.
-8. **Meta Wrap-up**: summarize what the learner did, what blocked comprehension, and what to study next.
+8. **Meta Wrap-up**: summarize what the learner did, what blocked comprehension, what to study next, and update the learner profile briefly when applicable.
 
 For detailed session timing and prompt examples, read `references/session-flow.md`.
 
@@ -170,6 +184,8 @@ At the end of a session, offer an Obsidian-friendly study note only after the ac
 - spaced review prompts
 
 For the final note format, read `references/obsidian-output-template.md`.
+
+If a learner profile exists, link the session note to it and keep the profile update meta-level only. Do not duplicate the session note inside the profile.
 
 ## Article Selection Heuristics
 
