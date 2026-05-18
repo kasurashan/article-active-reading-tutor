@@ -20,6 +20,7 @@ A Codex skill for studying English magazine articles through guided active-readi
 - 첫 시도에서는 full blank frame보다 sentence starter를 우선해, 학습자가 핵심 관계와 표현을 직접 선택하게 합니다.
 - 사용자가 직접 묻기 전까지 정답, 모범답안, 전체 해석을 바로 공개하지 않고 단계별 힌트를 줍니다.
 - 로컬 학습 프로필이 있으면 세션 전에 짧게 참고하고, 세션 후에는 메타 수준의 업데이트만 남깁니다.
+- 처음 사용하는 학습자에게는 프로필을 자동 생성하지 않고, 첫 세션이 끝난 뒤 opt-in으로 제안합니다.
 - 학습 마지막에는 사용자의 답변을 바탕으로 메타 학습 리포트를 정리합니다.
 - Obsidian에 붙여 넣기 좋은 복습 노트 형식을 제공합니다.
 
@@ -60,7 +61,7 @@ When a local learner profile exists, such as:
 40. Study/english/English Learning Profile.md
 ```
 
-the tutor uses it as a compact meta guide before the session. The profile should stay short and contain only current diagnosis, tutoring direction, focus areas, and a brief update log. Concrete sentence frames, vocabulary, article summaries, and examples belong in each session note instead.
+the tutor uses it as a compact meta guide before the session. If no profile exists, the tutor does not create one silently; it may offer to create a short profile after the first session or when the learner asks for progress tracking. The profile should stay short and contain only current diagnosis, tutoring direction, focus areas, and a brief update log. Concrete sentence frames, vocabulary, article summaries, and examples belong in each session note instead.
 
 ## Installation
 

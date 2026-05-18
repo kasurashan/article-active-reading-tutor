@@ -126,11 +126,15 @@ If the user wants to continue a previous article, resume from the next section. 
 
 ## Learner Profile Loop
 
-When working in a local Obsidian or study-note workspace, check for `40. Study/english/English Learning Profile.md` or a user-provided learner profile before the session. If it exists, read it briefly and adapt the session to its `Current Diagnosis`, `Tutoring Direction`, and `Current Focus`. If it does not exist, continue without asking unless the user wants profile tracking.
+When working in a local Obsidian or study-note workspace, check for `40. Study/english/English Learning Profile.md` or a user-provided learner profile before the session. If it exists, read it briefly and adapt the session to its `Current Diagnosis`, `Tutoring Direction`, and `Current Focus`.
+
+If no learner profile exists, do not create one silently and do not interrupt the session at the start. Run the session normally. At the end of a first session, or whenever the user asks for progress tracking, offer to create a short learner profile and create it only after explicit consent or request.
 
 Use the profile only as a compact meta guide. Do not turn it into a lesson note, expression list, or answer key. Keep concrete sentence frames, vocabulary, article summaries, and examples in the per-session study note instead.
 
-At the end of a session, if the profile was used or the user asks to keep tracking progress, update it with only a short log:
+When creating a new profile, keep only compact meta sections such as `Current Diagnosis`, `Tutoring Direction`, `Current Focus`, and `Update Log`. Do not add concrete sentence frames, vocabulary lists, article summaries, or detailed examples to the profile.
+
+At the end of a session, if the profile was used, newly created, or the user asks to keep tracking progress, update it with only a short log:
 
 - what improved
 - what needs work
