@@ -42,6 +42,34 @@ Use this compact format after the learner has retried or when a model sentence i
 
 If the learner's sentence is understandable but unnatural, focus on natural phrasing and collocation rather than minor grammar trivia.
 
+Use delayed lexical upgrade for awkward but repairable phrases:
+
+1. Name the issue without giving the polished phrase.
+2. Ask the learner to repair only that phrase or clause.
+3. If needed, give a small word bank, not a full model sentence.
+4. After the retry, provide the natural chunk and ask for one reuse.
+
+Example for `doing artistic behavior suppress the aging of our body`:
+
+```markdown
+좋아요. 의미 방향은 맞아요. 지금은 두 가지만 네가 먼저 고쳐봅시다.
+
+1. `doing artistic behavior`
+   `behavior`는 여기서 조금 어색해요. "예술 활동을 하다"를 activity/activities 쪽으로 바꾸면 어떻게 말할 수 있을까요?
+
+2. `suppress`
+   이 단어는 너무 강해요. 제목의 `may`처럼 조심스러운 주장으로 바꿔야 합니다.
+
+아직 모범문장은 주지 않을게요. 이 프레임으로 다시 써보세요:
+I think the article will argue that ___ may ___ cellular aging.
+```
+
+If the learner retries poorly or asks for help, then give a word bank:
+
+```markdown
+Word bank: `take part in`, `engage in`, `artistic activities`, `creative activities`, `slow`
+```
+
 If the learner makes several mistakes, correct only the highest-value 1-2 issues:
 
 - article/preposition only when it affects naturalness or meaning
@@ -79,6 +107,15 @@ Avoid giving a full model-like option too early:
 ```markdown
 B. how old your body seems or functions
 ```
+
+Avoid giving polished collocations too early:
+
+```markdown
+engaging in artistic or creative activities
+may slow down biological aging
+```
+
+These are useful after the learner retries, but too answer-like before self-repair.
 
 ## Answer Withholding and Hint Ladder
 

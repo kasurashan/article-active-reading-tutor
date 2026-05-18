@@ -16,6 +16,7 @@ A Codex skill for studying English magazine articles through guided active-readi
 - 예측, gist reading, 근거 찾기, 어휘/구문 noticing, 영어 output, 회상 복습을 포함합니다.
 - 학습자가 영어로 답하면 바로 모범문장을 던지기보다 Socratic self-repair로 한 번 더 생각하고 고쳐 쓰게 합니다.
 - 교정은 `Natural version`에서 끝나지 않고, 재작성이나 응용 문장 생성으로 이어지도록 설계되어 있습니다.
+- 어색한 표현도 바로 polished phrase로 바꿔주기보다, 먼저 작은 힌트나 word bank로 학습자가 직접 repair하게 합니다.
 - 사용자가 직접 묻기 전까지 정답, 모범답안, 전체 해석을 바로 공개하지 않고 단계별 힌트를 줍니다.
 - 학습 마지막에는 사용자의 답변을 바탕으로 메타 학습 리포트를 정리합니다.
 - Obsidian에 붙여 넣기 좋은 복습 노트 형식을 제공합니다.

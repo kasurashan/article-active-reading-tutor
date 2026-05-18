@@ -58,6 +58,10 @@ Prefer open Socratic prompts before closed choices. For example, ask "Does biolo
 
 Use sentence frames as scaffolding, not as answers. A frame like `I think biological age means ___, not ___.` is appropriate after the learner has formed the contrast, but should not be the first move if it gives away the concept.
 
+Delay lexical upgrades. If the learner writes an understandable but unnatural phrase such as `doing artistic behavior`, do not immediately provide the polished chunk. First ask the learner to repair the phrase, give a conceptual clue, or provide a small word bank. Provide the polished phrase only after the retry or if the learner is clearly stuck.
+
+When the target language is visible in the title or reading card, point the learner back to that clue instead of inserting it into a full corrected answer. For hedges such as `may`, `suggest`, or `is associated with`, ask whether the article is making a strong claim or a cautious claim before giving the revised wording.
+
 Keep repair loops short. One self-repair attempt is usually enough; two is the maximum unless the learner wants intensive practice.
 
 ## Article Access

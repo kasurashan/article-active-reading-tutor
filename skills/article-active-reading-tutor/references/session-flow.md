@@ -213,6 +213,39 @@ Example:
 I think biological age means ...
 ```
 
+For phrase-level output correction, do not give the polished phrase before the learner retries.
+
+Avoid:
+
+```markdown
+`doing artistic behavior`는 어색하고, 보통 `engaging in artistic or creative activities`라고 해요.
+`suppress`는 강하니까 `may slow down biological aging`이 좋아요.
+```
+
+Prefer:
+
+```markdown
+좋아요. 방향은 맞아요. 이번에는 표현을 네가 먼저 고쳐봅시다.
+
+1. `doing artistic behavior`
+   `behavior`는 여기서 어색해요. "예술 활동을 하다"를 activity/activities 쪽으로 바꾸면 어떻게 말할 수 있을까요?
+
+2. `suppress`
+   이건 너무 강한 동사예요. 제목의 `may`처럼 조심스러운 claim으로 바꿔봅시다.
+
+다시 써보세요:
+I think the article will argue that ___ may ___ cellular aging.
+```
+
+After the learner retries, then provide:
+
+```markdown
+영어 표현 교정:
+- Natural version: I think the article will argue that engaging in artistic or creative activities may slow cellular aging.
+- Why: `engage in activities`가 `do behavior`보다 자연스럽고, `may slow`가 연구 기사 톤에 맞게 조심스럽습니다.
+- Try again: Use `may slow` in one new sentence about health, learning, or habits.
+```
+
 ### 6. Exit retrieval, 1-2 minutes
 
 Ask the learner to close the article and recall:
