@@ -117,6 +117,19 @@ may slow down biological aging
 
 These are useful after the learner retries, but too answer-like before self-repair.
 
+## Scaffolding Strength
+
+Use the least scaffold that still lets the learner produce. Move from lighter to heavier support:
+
+1. **Task constraint**: "Use `correlation`; do not write it as cause."
+2. **Sentence starter**: `The study found a correlation between ...`
+3. **Conceptual hint**: "One side is the art/culture behavior; the other side is the aging measure."
+4. **Full blank frame**: `The study found a correlation between ___ and ___.`
+5. **Word bank**: `arts engagement`, `epigenetic aging`, `biologically younger`
+6. **Model answer**: only after retry or explicit request.
+
+Do not start with a full blank frame when the learner can reasonably generate the missing content. Full frames are allowed for high-friction grammar patterns, but gist and claim-evidence tasks should usually begin with a sentence starter.
+
 ## Answer Withholding and Hint Ladder
 
 Never give the answer key, model answer, full translation, or final interpretation before the learner has tried. If the learner is stuck, move down this ladder gradually:

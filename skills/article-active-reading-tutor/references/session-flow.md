@@ -120,6 +120,39 @@ Ask:
 
 Do not reveal the gist answer before the learner attempts it. If they are stuck, use the hint ladder from `feedback-rubric.md`.
 
+For first-attempt gist tasks, prefer constraints plus a sentence starter over a full blank frame. The learner should still decide the key content.
+
+Use:
+
+```markdown
+Q. Gist
+이 구간의 핵심을 영어 1문장으로 요약해보세요.
+
+조건:
+- cause처럼 쓰지 말기
+- `correlation`이라는 단어를 반드시 쓰기
+- A와 B를 직접 정하기
+
+Sentence starter:
+The study found a correlation between ...
+```
+
+Avoid as the first attempt:
+
+```markdown
+Frame:
+The study found a correlation between ___ and ___.
+```
+
+If the learner is stuck or writes a cause statement, then provide the fuller frame as a hint:
+
+```markdown
+힌트로 frame을 줄게요. A와 B는 직접 골라야 합니다:
+The study found a correlation between ___ and ___.
+```
+
+For a segment card about arts engagement and cellular aging, avoid pre-filling both sides of the relationship in the task prompt. Let the learner choose whether A is `arts and cultural engagement`, `weekly engagement with art`, or a similar phrasing, and whether B is `slower epigenetic aging`, `cellular aging`, or `being biologically younger`.
+
 ### 3. Evidence reading, 5-7 minutes
 
 Ask the learner to re-read the same segment and mark:

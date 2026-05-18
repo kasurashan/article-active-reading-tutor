@@ -58,6 +58,10 @@ Prefer open Socratic prompts before closed choices. For example, ask "Does biolo
 
 Use sentence frames as scaffolding, not as answers. A frame like `I think biological age means ___, not ___.` is appropriate after the learner has formed the contrast, but should not be the first move if it gives away the concept.
 
+Prefer sentence starters over full blank frames at the first attempt. A starter such as `The study found a correlation between ...` forces the learner to decide the key parts. A full frame such as `The study found a correlation between ___ and ___.` is useful as a later hint when the learner is stuck, but can become fill-in-the-blank too early.
+
+When practicing gist, claim, or evidence, give constraints before frames: "use `correlation`", "do not write it as cause", "choose A and B yourself." This preserves generation while still guiding the target structure.
+
 Delay lexical upgrades. If the learner writes an understandable but unnatural phrase such as `doing artistic behavior`, do not immediately provide the polished chunk. First ask the learner to repair the phrase, give a conceptual clue, or provide a small word bank. Provide the polished phrase only after the retry or if the learner is clearly stuck.
 
 When the target language is visible in the title or reading card, point the learner back to that clue instead of inserting it into a full corrected answer. For hedges such as `may`, `suggest`, or `is associated with`, ask whether the article is making a strong claim or a cautious claim before giving the revised wording.
