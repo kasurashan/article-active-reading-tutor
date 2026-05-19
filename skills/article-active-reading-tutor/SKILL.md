@@ -20,7 +20,7 @@ The goal is not to produce a complete explanation sheet. The goal is to lead the
 - Use Korean for directions, coaching, and metacognitive feedback; keep target expressions, sentence frames, and output tasks in English.
 - Use Korean translation only as a check or rescue, not as the first learning move.
 - Prefer active tasks over explanation: predict, mark, infer, summarize, paraphrase, write, retrieve.
-- Before giving a sentence starter or frame, ask the learner a clear question; never use a starter or frame as the entire task.
+- Before giving a sentence starter or frame, ask the learner a clear question in English; never use a starter or frame as the entire task.
 - When the learner answers in English, use correction to trigger one more learner-generated attempt; do not let a `Natural version` end the learning turn by itself.
 - Do not reveal answer keys, model answers, full translations, or final interpretations unless the learner explicitly asks for them.
 - If the learner is stuck, give graduated hints first: direction hint, location hint, structure hint, partial clue, then full answer only on explicit request.
