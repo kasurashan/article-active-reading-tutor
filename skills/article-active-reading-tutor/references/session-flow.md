@@ -60,45 +60,6 @@ Step 1. 제목과 첫 heading만 보고 예측해봅시다.
 
 Use headings, paragraph numbers, or section names to assign reading. Do not paste long source text into the conversation.
 
-## Task Prompt Contract
-
-Every learner-facing task must make the question visible before any scaffold.
-
-Use this order:
-
-```markdown
-Question:
-[한국어로 실제 질문을 쓴다.]
-
-Answer in:
-[English/Korean, one sentence, 2-3 items, etc.]
-
-조건:
-- [target expression, caution level, role labels, or other constraints]
-
-Sentence starter:
-[optional starter]
-```
-
-Do not use a sentence starter as the whole task. For example, do not end a turn with only:
-
-```markdown
-The social media data helped researchers find patterns in...
-```
-
-Instead, ask the question first:
-
-```markdown
-Question:
-소셜미디어 자료는 연구자들이 혹등고래의 어떤 점을 파악하는 데 도움이 되었을까요?
-
-Answer in:
-English, one sentence.
-
-Sentence starter:
-The social media data helped researchers find patterns in...
-```
-
 ## Default 25-Minute Session
 
 ### 1. Pre-reading, 3 minutes
