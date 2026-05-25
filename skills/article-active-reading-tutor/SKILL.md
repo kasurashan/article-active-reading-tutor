@@ -98,9 +98,11 @@ For public web articles, the segment card must be copyright-safe:
 
 - show the article link and segment location
 - include at most a very short anchor quote
-- provide a concise paraphrase of the segment in English or Korean
+- provide a concise English-first paraphrase of the segment
 - list 2-4 key expressions from the segment
 - ask the learner to answer from the card
+
+Use Korean in segment cards only for directions, coaching, or rescue. Do not give the segment's core meaning in Korean before the learner has tried the reading task, unless the learner is blocked or asks for a Korean check. This keeps the card copyright-safe without removing the English reading load.
 
 Do not paste full paragraphs from Smithsonian, Quanta, or other copyrighted web articles. If the learner explicitly provides their own text excerpt in the chat, work with that excerpt, but still avoid turning the session into a long copied article dump.
 

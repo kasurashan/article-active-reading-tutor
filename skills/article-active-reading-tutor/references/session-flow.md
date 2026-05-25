@@ -92,7 +92,7 @@ Use this format for public web articles:
 
 - 위치: [article title]의 [heading/paragraph location]
 - Anchor: "[very short excerpt]"
-- Paraphrase: [concise English or Korean paraphrase of the segment]
+- Paraphrase: [concise English-first paraphrase of the segment]
 - Key expressions: `...`, `...`, `...`
 
 이 카드만 보고 먼저 답해보세요. 정답은 아직 말하지 않겠습니다.
@@ -108,7 +108,7 @@ Use this format for local Markdown study files:
 - Key expressions: `...`, `...`, `...`
 ```
 
-For public web articles, do not paste full paragraphs. Use short anchors and paraphrase so the learner can stay in the chat without receiving a full copied passage.
+For public web articles, do not paste full paragraphs. Use short anchors and an English-first paraphrase so the learner can stay in the chat without receiving a full copied passage. Keep Korean for instructions, coaching, and rescue checks; do not lead with a Korean paraphrase of the segment's core meaning unless the learner is blocked or asks for it.
 
 Ask the learner not to use a dictionary unless completely blocked.
 
