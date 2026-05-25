@@ -79,7 +79,7 @@ Do not give the expected answer after asking prediction questions. If the learne
 
 ### 2. Gist reading, 5 minutes
 
-Assign a small segment, then provide a copyright-safe reading segment card in the chat instead of only telling the learner to go find it.
+Assign a segment that matches the task, then provide a copyright-safe reading segment card in the chat instead of only telling the learner to go find it. Use paragraph- or section-sized segments for gist summaries. Use 1-2 sentence micro-segments for role labeling, relation mapping, or paraphrase drills instead of summary prompts.
 
 - Smithsonian short article: first 2-4 paragraphs.
 - Smithsonian long feature: lead section or one subheaded section.
@@ -114,13 +114,15 @@ Ask the learner not to use a dictionary unless completely blocked.
 
 Ask:
 
-- 이 구간의 main point를 영어 또는 한국어 한 문장으로 말해보세요.
+- 이 구간의 main point를 영어 또는 한국어 한 문장으로 말해보세요. (paragraph or larger)
+- 이 1-2문장은 각각 어떤 역할인가요? `finding`, `implication`, `limitation`, `mechanism` 중에서 골라보세요. (micro-segment)
+- 두 문장 사이의 관계는 무엇인가요: 발견 -> 의미, 주장 -> 근거, 주장 -> 한계, 문제 -> 해결?
 - 이 글이 다루는 problem은 무엇인가요?
 - 다음 구간에서 무엇을 설명할 것 같나요?
 
 Do not reveal the gist answer before the learner attempts it. If they are stuck, use the hint ladder from `feedback-rubric.md`.
 
-For first-attempt gist tasks, prefer constraints plus a sentence starter over a full blank frame. The learner should still decide the key content.
+For first-attempt gist tasks on paragraph-or-larger segments, prefer constraints plus a sentence starter over a full blank frame. The learner should still decide the key content.
 
 Use:
 
@@ -152,6 +154,23 @@ The study found a correlation between ___ and ___.
 ```
 
 For a segment card about arts engagement and cellular aging, avoid pre-filling both sides of the relationship in the task prompt. Let the learner choose whether A is `arts and cultural engagement`, `weekly engagement with art`, or a similar phrasing, and whether B is `slower epigenetic aging`, `cellular aging`, or `being biologically younger`.
+
+For 1-2 sentence micro-segments, avoid "summarize this in one sentence" as the default task. Use:
+
+```markdown
+Q. Role labeling
+이 짧은 구간에서 각 정보의 역할을 표시해보세요.
+
+- Finding:
+- Implication:
+- Limitation:
+```
+
+Then ask for a short paraphrase only if useful:
+
+```markdown
+Now paraphrase only the implication in one simple English sentence.
+```
 
 ### 3. Evidence reading, 5-7 minutes
 
